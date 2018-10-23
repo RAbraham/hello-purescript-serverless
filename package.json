@@ -12,5 +12,8 @@
   "dependencies": {
     "aws-serverless-express": "^3.3.5",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.28.1"
   }
 }
