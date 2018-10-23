@@ -1,0 +1,22 @@
+service: purescript-aws-lambda-express-test
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  memorySize: 128
+  # stage: ${opt:stage dev}
+  region: us-east-1
+
+functions:
+  lambda:
+    handler: output/Main/index.handler
+    events:
+      - http:
+          path: / # this matches the base path
+          method: ANY
+      - http:
+          path: /{any+}
+          method: ANY
+
+plugins:
+  - serverless-offline
