@@ -1,4 +1,5 @@
-Please follow the instructions at RAJ:blog link
+Please follow the instructions in this [post](https://medium.com/@rajiv.abraham/purescript-on-aws-lambda-7cf04bbcc25e)
+
 ### Instructions
 
 * Git clone this repo.
